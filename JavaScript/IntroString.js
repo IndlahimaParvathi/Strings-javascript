@@ -4,11 +4,9 @@ document.getElementById("btnSubmit").addEventListener("click", function(){
    var secondName= document.getElementById("txtSecondName").value
    var email= document.getElementById("txtEmail").value
 
-   alert(firstName);
-   alert(secondName);
-    alert(email);
-        alert(firstName+secondName+' '+email);
-        alert("My Firstname is:"  +firstName +",My Secondname is:" +secondName+ ", My email is : "  +email+".")
+   
+        document.getElementById("pResult").innerHTML=
+        "My Firstname is:"  +firstName +",My Secondname is:" +secondName+ ", My email is : "  +email+"."
    
 });
 
