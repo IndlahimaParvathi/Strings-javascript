@@ -5,9 +5,14 @@ document.getElementById("btnSubmit").addEventListener("click", function(){
    var email= document.getElementById("txtEmail").value
 
    
-        document.getElementById("pResult").innerHTML=
-        "My Firstname is:"  +firstName +",My Secondname is:" +secondName+ ", My email is : "  +email+"."
-   
+        // document.getElementById("pResult").innerHTML=
+        // "My Firstname is:"  +firstName +",My Secondname is:" +secondName+ ", My email is : "  +email+"."
+    // document.getElementById("pResult").innerHTML=
+    //     My Firstname is $(firstName),My Secondname is $(secondName)  My email is : "  +email+"."
+
+ document.getElementById("pResult").innerHTML=`My first name is ${firstname} , My Last name is ${secondname } , My Email is ${Email} . `;
+
+
 });
 
 
