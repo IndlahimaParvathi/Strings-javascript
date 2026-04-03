@@ -8,7 +8,7 @@ document.getElementById("btnSubmit").addEventListener("click", function(){
    alert(secondName);
     alert(email);
         alert(firstName+secondName+' '+email);
-        alert("My FirstName is "+firstName+" My SecondName is "+secondName+" My email is "+email+".")
+        alert("My Firstname is:"  +firstName +",My Secondname is:" +secondName+ ", My email is : "  +email+".")
    
 });
 
