@@ -1,6 +1,6 @@
 document.getElementById("btnSubmit").addEventListener("click",function(){
     debugger;
-    var inputTest=document.getElementById("txtInputTest").value
-     var repeatTest=number(document.getElementById("txtRepeatTest").value)
-     document.getElementById("pResult").innerHTML=inputTest.repeat(repeatTest)
+    var inputTest=document.getElementById("txtInputTest").value;
+     var repeatTest=Number(document.getElementById("txtRepeatTest").value);
+     document.getElementById("pResult").innerHTML=(inputTest +"\n").repeat(repeatTest);
 });
