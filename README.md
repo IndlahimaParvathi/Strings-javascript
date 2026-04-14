@@ -1,1 +1,2 @@
-Data Type String
+Strings
+
